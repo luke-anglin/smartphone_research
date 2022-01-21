@@ -15,4 +15,4 @@ The end goal is to get sensor data continuosly sent to the cloud for ML purposes
 Public IPV4 DNS: ec2-34-201-38-199.compute-1.amazonaws.com
 Public IP address: 34.201.38.199
 
-`ssh -i `
+`ssh -i ./server-smartphone.pem ec2-user@ec2-34-201-38-199.compute-1.amazonaws.com`
