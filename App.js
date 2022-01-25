@@ -16,6 +16,8 @@ export default function App() {
             FileSystem.documentDirectory + "test.txt",
             text
           )
+            // This writes the string the user enters to 'file://<user's document directory (platform/OS dependent)>/test.txt
+            // U can probably just use https://docs.expo.dev/versions/latest/sdk/filesystem/#filesystemuploadasyncurl-fileuri-options this link's FileSystem.uploadAsync feature to do this upload. Access it at the fileURI I specified above.
             .then(console.log("worked"));
         }}
         defaultValue={text}
